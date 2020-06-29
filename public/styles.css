@@ -1,0 +1,47 @@
+:root {
+    --color-green: #50fa7b;
+}
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: white;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+}
+
+.menu {
+    padding: 30px;
+    background: #6339c6;
+    text-align: center;
+    
+}
+
+.menu a {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px;
+}
+
+.menu a:before {
+    
+    content: "";
+    width: 60px;
+    position: absolute;
+    border-bottom: 5px solid #313131;
+    bottom: 0;
+    right: 250px;
+    transition: 0.7s all;
+}
+
+.menu a:hover:before{
+    right: 0;
+}

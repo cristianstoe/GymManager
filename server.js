@@ -1,8 +1,10 @@
 const express = require(`express`)
 const nunjucks = require(`nunjucks`)
 const server = express()
+const routes = require(`./routes`)
 
 server.use(express.static(`public`))
+server.use(routes)
 
 server.set(`view engine`,`njk`)
 
@@ -11,12 +13,9 @@ express: server,
 noCache: true
 }) 
 
-server.get(`/`, function(req, res){
-	
-})
 
 
-server.listen(1478, function(){
+server.listen(5646, function(){
 	console.log(`server is running`)
 })
 
