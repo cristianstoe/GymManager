@@ -4,23 +4,28 @@
   "description": "Desafio 2-X",
   "main": "scripts.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "npm-run-all -p nodemon browsersync",
+    "nodemon": "nodemon server.js",
+    "browsersync": "browser-sync start --proxy http://localhost:5646 --files public,views "
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cristianstoe/Desafio-2-X.git"
+    "url": "git+"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cristianstoe/Desafio-2-X/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/cristianstoe/Desafio-2-X#readme",
+  "homepage": "",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
     "nunjucks": "^3.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "npm-run-all": "^4.1.5"
+  },
   "keywords": []
 }
