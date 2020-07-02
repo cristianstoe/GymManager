@@ -17,6 +17,10 @@
   "bugs": {
     "url": ""
   },
+  "nodemonConfig": {
+    "ignore": ["data.json"]
+  },
+
   "homepage": "",
   "dependencies": {
     "express": "^4.17.1",
