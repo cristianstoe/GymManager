@@ -1,0 +1,58 @@
+
+            <div class="item">
+                <div>Avatar URL</div>
+                <div>
+                    <input type="url" name="avatar_url" placeholder="http://" value="{{instructor.avatar_url}}">
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Instrutor</div>
+                <div>
+                    <input type="text" name="name" placeholder="Nome completo do instrutor" value="{{instructor.name}}">
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Data de Nascimento</div>
+                <div>
+                    <input type="date" name="birth" value="{{instructor.birth}}">
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Escolaridade</div>
+                <div>
+                    <select name="school">
+                        <option value="medio">Ensino Médio Completo</option>
+                        <option value="superior">Ensino Superior Completo</option>
+                        <option value="mestrado">Mestrado</option>
+                        <option value="doutorado">Doutorado</option>
+
+                    </select>
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Tipo de Aula</div>
+                <div>
+                    <span><input type="radio" name="distance" value="P" 
+                    {% if instructor.distance =="P"%}
+                    checked="checked" 
+                    {% endif %}>Presencial</span>
+                    <span><input type="radio" name="distance" value="D"
+                    {% if instructor.distance =="D"%}
+                    checked="checked" 
+                    {% endif %}>À distância</span>
+
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Área de Atuação</div>
+                <div>
+                    <input type="text" name="services" placeholder="Separe os servicos prestados por vírgula" value="{{instructor.services}}">
+                </div>
+            </div>
+
+            <button type="submit" action="#">Salvar</button>
