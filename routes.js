@@ -18,6 +18,8 @@ routes.post(`/instructors`, instructors.post)
 
 routes.put(`/instructors`, instructors.put)
 
+routes.delete(`/instructors`, instructors.delete)
+
 routes.get(`/instructors/:id`, instructors.show)
 
 routes.get(`/instructors/:id/edit`, instructors.edit)
