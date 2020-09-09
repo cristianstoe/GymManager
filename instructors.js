@@ -4,6 +4,13 @@ const { timeStamp } = require("console")
 const { age, date } = require(`./utils`)
 const { Z_DATA_ERROR } = require("zlib")
 
+
+exports.index = function(req, res){
+    
+    
+    return res.render(`instructors/index`, {instructors: data.instructors})
+}
+
 exports.show = function (req, res) {
     const { id } = req.params
 
@@ -100,7 +107,8 @@ exports.put = function (req, res) {
     const instructor = {
         ...foundInstructor,
         ...req.body,
-        birth: Date.parse(req.body.birth)
+        birth: Date.parse(req.body.birth),
+        id: Number(req.body.id)
     }
 
     data.instructors[index] = instructor
