@@ -1,7 +1,7 @@
 const fs = require(`fs`)
-const data = require(`./data.json`)
+const data = require(`../data.json`)
 const { timeStamp } = require("console")
-const { age, date } = require(`./utils`)
+const { age, date } = require(`../utils`)
 const { Z_DATA_ERROR } = require("zlib")
 
 

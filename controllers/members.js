@@ -1,14 +1,12 @@
 const fs = require(`fs`)
-const data = require(`./data.json`)
+const data = require(`../data.json`)
 const { timeStamp } = require("console")
-const { age, date } = require(`./utils`)
+const { age, date } = require(`../utils`)
 const { Z_DATA_ERROR } = require("zlib")
 
 
 
-exports.index = function(req, res){
-    
-    
+exports.index = function(req, res){    
     return res.render(`members/index`, {members: data.members})
 }
 
