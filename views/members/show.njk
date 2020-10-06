@@ -3,40 +3,41 @@
 {% block content %}
 
     <div class="card">
-        <section class="avatar" style="background: url({{instructor.avatar_url}}) no-repeat center center /cover"></section>
+        <section class="avatar" style="background: url({{member.avatar_url}}) no-repeat center center /cover"></section>
         <section class="details">
             <h3>Detalhes</h3>
 
             <div class="item">
-                <div>Instrutor</div>
-                <div>{{instructor.name}}</div>
+                <div>Membro</div>
+                <div>{{member.name}}</div>
             </div>
 
             <div class="item">
-                <div>Idade</div>
-                <div>{{instructor.age}}</div>
+                <div>Email</div>
+                <div>{{member.email}}</div>
             </div>
 
             <div class="item">
-                <div>Grau de Escolaridade</div>
-                <div>{{"Ensino Médio" if instructor.school == "medio" else "À distância"}}</div>
+                <div>Aniverśario</div>
+                <div>{{member.birth}}</div>
             </div>
 
+            
             <div class="item">
-                <div>Tipo de Aula</div>
-                <div>{{"Presencial" if instructor.distance == "P" else "À distância"}}</div>
+                <div>Ano Escolar</div>
+                <div>{{"3 ano" if member.schoolYear == "ano_3" else "2 ano" if member.schoolYear == "ano_2"}}</div>
             </div>
 
             <div class="item">
                 <div>Área de Atuação</div>
                 <div>
-                    {% for service in instructor.services %}
+                    {% for service in member.services %}
                     <span>{{service}}</span>
                     {% endfor %}
                 </div>
             </div>
 
-            <a href="/instructors/{{instructor.id}}/edit" class="button">Editar</a>
+            <a href="/members/{{member.id}}/edit" class="button">Editar</a>
 
         </section>
     </div>

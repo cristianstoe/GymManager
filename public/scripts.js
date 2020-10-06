@@ -1,3 +1,4 @@
+//logica do menu ativo
 const currentPage = location.pathname
 const menuItems = document.querySelectorAll("header .menu a")
 

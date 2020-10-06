@@ -1,6 +1,44 @@
 {
-  "members": [],
-  
+  "members": [
+    {
+      "id": 1,
+      "name": [
+        "Cristian do Valle Simão Stoenica",
+        "cristian3300@gmail.com"
+      ],
+      "avatar_url": "https://google.com",
+      "birth": 997056000000,
+      "schoolYear": "ano_3",
+      "hours": "12"
+    },
+    {
+      "id": 2,
+      "name": "Cristian do Valle Simão Stoenica",
+      "avatar_url": "https://google.com",
+      "birth": 997056000000,
+      "schoolYear": "ano_3",
+      "email": "cristian3300@gmail.com",
+      "hours": "8"
+    },
+    {
+      "id": 3,
+      "name": "Lucian Stoenica",
+      "avatar_url": "https://google.com",
+      "birth": 188784000000,
+      "schoolYear": "ano_3",
+      "email": "lutisto@gmail.com",
+      "hours": "15"
+    },
+    {
+      "id": 4,
+      "name": "Ana flavia",
+      "avatar_url": "https://google.com",
+      "birth": -9072000000,
+      "schoolYear": "ano_2",
+      "email": "anasiamao@gmail.com",
+      "hours": "16"
+    }
+  ],
   "instructors": [
     {
       "id": 1,
