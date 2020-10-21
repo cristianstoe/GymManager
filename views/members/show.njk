@@ -29,12 +29,9 @@
             </div>
 
             <div class="item">
-                <div>Área de Atuação</div>
-                <div>
-                    {% for service in member.services %}
-                    <span>{{service}}</span>
-                    {% endfor %}
-                </div>
+                <div>Carga horária</div>
+                <div>{{member.hours}} horas semanais</div>
+
             </div>
 
             <a href="/members/{{member.id}}/edit" class="button">Editar</a>

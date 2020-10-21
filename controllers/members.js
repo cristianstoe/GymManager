@@ -23,6 +23,7 @@ exports.show = function (req, res) {
     const member = {
         ...foundMember,
         age: age(foundMember.birth),
+        birth: date(foundMember.birth).birthDay,
         grade: grade(foundMember.schoolYear)
     }
 
@@ -87,7 +88,9 @@ exports.edit = function (req, res) {
 
     const member = {
         ...foundMember,
-        birth: date(foundMember.birth)
+        birth: date(foundMember.birth).iso,
+        grade: grade(foundMember.schoolYear)
+
     }
 
 

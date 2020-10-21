@@ -2,69 +2,67 @@
   "members": [
     {
       "id": 1,
-      "name": [
-        "Cristian do Valle Simão Stoenica",
-        "cristian3300@gmail.com"
-      ],
-      "avatar_url": "https://google.com",
-      "birth": 997056000000,
-      "schoolYear": "ano_3",
-      "hours": "12"
-    },
-    {
-      "id": 2,
       "name": "Cristian do Valle Simão Stoenica",
-      "avatar_url": "https://google.com",
+      "avatar_url": "https://scontent.fbsb4-1.fna.fbcdn.net/v/t1.0-9/19105623_1303948133051982_7831190434960980649_n.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_eui2=AeGElr8ZP4ysrYseVdUVcDqKPnAiZJgble0-cCJkmBuV7RJ9h53IjnmN4jjwBOFUUZL8DL7Clx_3NR_IARz0IYja&_nc_ohc=S-biKcoNlJ8AX9Vbh3r&_nc_ht=scontent.fbsb4-1.fna&oh=830ebb997f92b24f5463021f4d5d0c3d&oe=5FB5DB4B",
       "birth": 997056000000,
-      "schoolYear": "ano_3",
-      "email": "cristian3300@gmail.com",
-      "hours": "8"
+      "schoolYear": "3",
+      "hours": "10",
+      "email": "cristian3300@gmail.com"
     },
     {
       "id": 3,
       "name": "Lucian Stoenica",
-      "avatar_url": "https://google.com",
+      "avatar_url": "https://scontent.fbsb4-1.fna.fbcdn.net/v/t1.0-9/51261422_10213349371544214_5518925515278254080_o.jpg?_nc_cat=100&_nc_sid=09cbfe&_nc_eui2=AeGTYs1pmvVPKL0PvYYj0ajscdKbr8QELFdx0puvxAQsV3IY013IARD9pq4YtxENs3-ehxTDWLMTHdmbpiUios92&_nc_ohc=rtM0oK102JUAX_23aaQ&_nc_ht=scontent.fbsb4-1.fna&oh=b2e44882fd2570408d6f217278c88145&oe=5FB4DF33",
       "birth": 188784000000,
-      "schoolYear": "ano_3",
+      "schoolYear": "3",
       "email": "lutisto@gmail.com",
       "hours": "15"
     },
     {
       "id": 4,
       "name": "Ana flavia",
-      "avatar_url": "https://google.com",
+      "avatar_url": "https://scontent.fbsb4-1.fna.fbcdn.net/v/t1.0-9/36398613_1890839860936702_5166600706513174528_n.jpg?_nc_cat=110&_nc_sid=09cbfe&_nc_eui2=AeFbrGCzY4-6wxXIKofOZZAAhDMbQROUu7eEMxtBE5S7t0dElprJvTmey-G4_L0uaGTL4nVq8PnvpqRyZYsWs0C2&_nc_ohc=TQWKHY1seeMAX-HifjM&_nc_ht=scontent.fbsb4-1.fna&oh=a77183ba6787eb7466fed7f97dfa389e&oe=5FB3FB58",
       "birth": -9072000000,
-      "schoolYear": "ano_2",
+      "schoolYear": "2",
       "email": "anasiamao@gmail.com",
       "hours": "16"
     },
     {
       "id": 5,
-      "name": "Cristian do Valle SImão Stoenica",
+      "name": "Henrique Stoenica",
       "avatar_url": "https://google.com",
-      "birth": 997056000000,
+      "birth": 1245456000000,
       "schoolYear": "6",
-      "email": "cristian3300@gmail.com",
-      "hours": "15"
+      "email": "henriquesto@gmail.com",
+      "hours": "7"
+    },
+    {
+      "id": 6,
+      "name": "Isabella Dainez",
+      "avatar_url": "https://scontent.fbsb4-1.fna.fbcdn.net/v/t1.0-9/106378979_109180344193293_2915343614705773422_n.jpg?_nc_cat=107&_nc_sid=09cbfe&_nc_eui2=AeFTT1IN4r9Fcvk_4c7Sz_Afllms4sP3_4eWWaziw_f_h2ClPRJvRATI5gFlrNvPQZFastzT8lrxMScxTbsq6d_p&_nc_ohc=kp7CZQDUk1AAX_w2NTx&_nc_ht=scontent.fbsb4-1.fna&oh=2241970217650919950974575a568cbe&oe=5FB6E989",
+      "birth": 1023840000000,
+      "schoolYear": "5",
+      "email": "isabelladainez9@gmail.com",
+      "hours": "2"
     }
   ],
   "instructors": [
     {
       "id": 1,
       "name": "Cristian",
-      "avatar_url": "https://scontent.fbsb4-1.fna.fbcdn.net/v/t1.0-9/19105623_1303948133051982_7831190434960980649_n.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_eui2=AeGElr8ZP4ysrYseVdUVcDqKPnAiZJgble0-cCJkmBuV7RJ9h53IjnmN4jjwBOFUUZL8DL7Clx_3NR_IARz0IYja&_nc_ohc=3OPr9UIjbdEAX-99-ZE&_nc_ht=scontent.fbsb4-1.fna&oh=fbad38180c434840a88f635bb8aec960&oe=5F7E7C4B",
+      "avatar_url": "https://scontent.fbsb4-1.fna.fbcdn.net/v/t1.0-9/19105623_1303948133051982_7831190434960980649_n.jpg?_nc_cat=103&_nc_sid=09cbfe&_nc_eui2=AeGElr8ZP4ysrYseVdUVcDqKPnAiZJgble0-cCJkmBuV7RJ9h53IjnmN4jjwBOFUUZL8DL7Clx_3NR_IARz0IYja&_nc_ohc=S-biKcoNlJ8AX9Vbh3r&_nc_ht=scontent.fbsb4-1.fna&oh=830ebb997f92b24f5463021f4d5d0c3d&oe=5FB5DB4B",
       "birth": 997056000000,
       "school": "medio",
       "distance": "P",
-      "services": "Calistenia",
+      "services": "Calistenia, Musculacao, Yoga",
       "created_at": 1593712182370
     },
     {
       "id": 2,
       "name": "Lucian Stoenicã",
-      "avatar_url": "https://scontent.fbsb4-1.fna.fbcdn.net/v/t1.0-9/51261422_10213349371544214_5518925515278254080_o.jpg?_nc_cat=100&_nc_sid=09cbfe&_nc_eui2=AeGTYs1pmvVPKL0PvYYj0ajscdKbr8QELFdx0puvxAQsV3IY013IARD9pq4YtxENs3-ehxTDWLMTHdmbpiUios92&_nc_ohc=UjrtuIH2TnYAX8DbvPs&_nc_ht=scontent.fbsb4-1.fna&oh=097fc38b3d4d6a7dafee636446c5691e&oe=5F7D8033",
+      "avatar_url": "https://scontent.fbsb4-1.fna.fbcdn.net/v/t1.0-9/51261422_10213349371544214_5518925515278254080_o.jpg?_nc_cat=100&_nc_sid=09cbfe&_nc_eui2=AeGTYs1pmvVPKL0PvYYj0ajscdKbr8QELFdx0puvxAQsV3IY013IARD9pq4YtxENs3-ehxTDWLMTHdmbpiUios92&_nc_ohc=rtM0oK102JUAX_23aaQ&_nc_ht=scontent.fbsb4-1.fna&oh=b2e44882fd2570408d6f217278c88145&oe=5FB4DF33",
       "birth": 188784000000,
-      "school": "superior",
+      "school": "medio",
       "distance": "D",
       "services": "Musculação, Crossfit",
       "created_at": 1599668776566
