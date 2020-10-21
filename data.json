@@ -37,6 +37,15 @@
       "schoolYear": "ano_2",
       "email": "anasiamao@gmail.com",
       "hours": "16"
+    },
+    {
+      "id": 5,
+      "name": "Cristian do Valle SImão Stoenica",
+      "avatar_url": "https://google.com",
+      "birth": 997056000000,
+      "schoolYear": "6",
+      "email": "cristian3300@gmail.com",
+      "hours": "15"
     }
   ],
   "instructors": [

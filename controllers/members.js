@@ -1,7 +1,7 @@
 const fs = require(`fs`)
 const data = require(`../data.json`)
 const { timeStamp } = require("console")
-const { age, date } = require(`../utils`)
+const { age, date, grade } = require(`../utils`)
 const { Z_DATA_ERROR } = require("zlib")
 
 
@@ -22,7 +22,8 @@ exports.show = function (req, res) {
 
     const member = {
         ...foundMember,
-        age: age(foundMember.birth)
+        age: age(foundMember.birth),
+        grade: grade(foundMember.schoolYear)
     }
 
     // console.log(member)
