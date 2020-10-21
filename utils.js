@@ -22,5 +22,17 @@ module.exports = {
         const day = `0${date.getUTCDate()}`.slice(-2)
 
         return `${year}-${month}-${day}`
+    },
+
+    grade: function(grades){
+        let grade; 
+
+        if (grades >= 5) {
+            grade = grades + "º ano"
+        } else {
+            grade = grades + "º ano do Ensino Médio"
+        }
+       
+        return grade;
     }
 }
